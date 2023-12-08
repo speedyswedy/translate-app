@@ -40,8 +40,8 @@ const Translate = () => {
                       value={postData.query}
                       onChange={handleTextareaChange}
                       placeholder="Skriv indata här"
-                      rows={4}
-                      cols={50}
+                      rows={10}
+                      cols={180}
                   />
                 <br />
                 <button onClick={handlePostRequest}>Gör POST-anrop</button>
